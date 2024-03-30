@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: 50%;
+}
+
+h1, h2, h3 {
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    color: #b32819;
+    font-size: 30px;
+    font-family: "Ranchers", sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+
+header  {
+    font-family: "Ranchers", sans-serif;
+    text-shadow: 2px 2px 2px black;
+    padding: 16px 0;
+    background-color: #b32819;
+    color: #e0f487;
+}
+
+h1 {
+    margin-right: 10px;
+}
+
+
+.title-store {
+    display: flex;
+    align-items: first baseline;
+    font-size: 18px;
+    padding: 16px;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #e0f487;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+header nav li a:hover {
+    padding: 3px;
+    box-sizing: border-box;
+    border: 2px #e0f487 solid;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px black;
+    background-color: #c2584d;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+section img {
+    height: 400px;
+}
+
+#about {
+    margin-left: 20px;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section h2 {
+    margin-bottom: 24px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .container {
+    align-items: self-start;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.front-store {
+    margin-right: 32px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+#contacts .container {
+    display: block;
+}
+
+.contacts-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h2 {
+    margin-bottom: 40px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 320px;
+}
+form textarea {
+    resize: none;
+    height: 130px;
+}
+
+form button {
+    background-color: #b32819;
+    color:#e0f487;
+    font-size: 20px;
+    font-family: "Ranchers", sans-serif;
+    text-shadow: 2px 2px 2px black;
+    border: none;
+    height: 50px;
+}
+
+form button:hover {
+    background-color: #cb5446;
+    border: none;
+    cursor: pointer;
+    border: 2px #e0f487 solid;
+    box-shadow: 2px 2px 2px black;
+}
+
+input:focus, textarea:focus {
+    outline-color: #b32819;
+}
+
+
+.contacts-methods h3 {
+    color: #b32819;
+    font-size: 25px;
+    font-family: "Ranchers", sans-serif;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #b32819;
+    color:#e0f487;
+    padding: 30px;
+    font-family: "Ranchers", sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
